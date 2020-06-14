@@ -1,0 +1,353 @@
+/*basic startup start*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body {
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol {
+    list-style: none;
+}
+img {
+    cursor: pointer;
+    border: 0;
+}
+p {
+    line-height: 150%;
+}
+.clear {
+    overflow: hidden;
+}
+/*basic startup end*/
+/*header design start*/
+.header {
+    background-image: url(../img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 40px 0;
+}
+.menu ul li a {
+    color: #ffffff !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.navbar-light .navbar-toggler {
+    color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 0;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+    padding: 4px;
+    font-size: 25px;
+}
+.header-text {
+    padding: 150px;
+    position: relative;
+}
+.header-text::before {
+    position: absolute;
+    content: '';
+    width: 45%;
+    height: 2px;
+    background-color: #ffffff;
+    top: 34%;
+    left: 27%;
+}
+.header-text::after {
+    position: absolute;
+    content: '';
+    width: 45%;
+    height: 2px;
+    background-color: #ffffff;
+    top: 53%;
+    left: 27%;
+}
+.header-text h1 {
+    font-size: 65px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 25px 0;
+}
+.header-text p {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+/*header design end*/
+/*about design start*/
+.about-img {
+    width: 100%;
+    padding-top: 30px;
+}
+.about-text {
+    padding: 100px 0;
+}
+.about-text h5 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #4c4c4c;
+}
+.about-text .para1 {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #585858;
+    padding: 40px 0;
+    line-height: 30px;
+    padding-right: 5%;
+}
+.about-text .para2 {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #585858;
+    line-height: 30px;
+    padding-right: 11%;
+    padding-bottom: 40px;
+}
+.btn-custom {
+    background: #ff2b4a;
+    border-radius: 0;
+    padding: 12px 45px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.btn-custom:hover {
+    background: #ffffff;
+    color: #ff2b4a;
+    border: 1px solid #ff2b4a;
+}
+/*about design end*/
+/*working-process design start*/
+.working-process {
+    background: #f6f6f6;
+    padding: 120px 0;
+}
+.work-content h2 {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+.work-content h5 {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding-bottom: 50px;
+    color: #787878;
+}
+/* for design part */
+.design-part i {
+    color: #ffffff;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+.design-part p {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.design-part {
+    background-image: url(../img/itme01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0;
+}
+/* for development part */
+.development-part i {
+    color: #ffffff;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+.development-part p {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.development-part {
+    background-image: url(../img/itme02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0;
+}
+/* for testing part */
+.testing-part i {
+    color: #ffffff;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+.testing-part p {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.testing-part {
+    background-image: url(../img/itme03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0;
+}
+/* for launch part */
+.launch-part i {
+    color: #ffffff;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+.launch-part p {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.launch-part {
+    background-image: url(../img/itme04.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0;
+}
+/*working-process design end*/
+/*education part design start*/
+.education {
+    background-image: url(../img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 125px 0;
+}
+.leftpart {
+    background: rgb(107, 122, 184);
+    padding: 65px 35px;
+}
+.leftpart h3 {
+    font-size: 26px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-bottom: 45px;
+    text-transform: uppercase;
+}
+.leftpart .heading {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding-bottom: 0px;
+    text-transform: capitalize;
+}
+.leftpart .subheading {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.leftpart .paragraph {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    position: relative;
+    padding-bottom: 15px;
+}
+.leftpart .paragraph::after {
+    position: absolute;
+    content: '';
+    width: 99%;
+    height: 1px;
+    background-color: #ffffff;
+    top: 112%;
+    left: 0%;
+}
+.leftpart .heading2 {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding-top: 15px;
+    text-transform: capitalize;
+}
+.leftpart .subheading2 {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.leftpart .paragraph2 {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+/*education part design end*/
+/*portfolio part design start*/
+.portfolio {
+    padding: 125px 0;
+}
+.portfolio-dwn {
+    padding-top: 30px;
+}
+/*portfolio part design end*/
+/*signature part design start*/
+.signature {
+    background: #64cbc0;
+    padding: 135px 0;
+}
+.signature i {
+    font-size: 50px;
+    color: #317688;
+    padding-bottom: 45px;
+}
+.signature .sig-para {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-right: 59%;
+    padding-bottom: 35px;
+}
+.signature img {
+    padding-bottom: 35px;
+}
+.signature h5 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #1e3d39;
+    margin-bottom: 0;
+}
+.signature .sub-sign {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #1e3d39;
+    margin-bottom: 0;
+}
+/*signature part design end*/
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
