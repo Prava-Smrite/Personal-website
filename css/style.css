@@ -234,14 +234,11 @@ p {
 /*working-process design end*/
 /*education part design start*/
 .education {
-    background-image: url(../img/banner-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: radial-gradient(#496978, #346879, #456878, #5d6977, #6e6a77);
     padding: 125px 0;
 }
 .leftpart {
-    background: rgb(107, 122, 184);
+    background: linear-gradient(#50647d, #5d657e, #67647c);
     padding: 65px 35px;
 }
 .leftpart h3 {
@@ -314,40 +311,203 @@ p {
     padding-top: 30px;
 }
 /*portfolio part design end*/
-/*signature part design start*/
-.signature {
-    background: #64cbc0;
-    padding: 135px 0;
+/*testimunial part design start*/
+.slider {
+    background-color: #64cbc0;
+    padding: 100px 0;
 }
-.signature i {
+.slider-img {
+    text-align: right;
+}
+.slider-img img {
+    width: 100%;
+}
+.slider-content {
+    padding-top: 55px;
+}
+.slider-content i {
     font-size: 50px;
     color: #317688;
     padding-bottom: 45px;
 }
-.signature .sig-para {
+.slider-content .sig-para {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    padding-right: 59%;
+    padding-right: 14%;
     padding-bottom: 35px;
 }
-.signature img {
+.slider-content img {
     padding-bottom: 35px;
 }
-.signature h5 {
+.slider-content h5 {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #1e3d39;
     margin-bottom: 0;
 }
-.signature .sub-sign {
+.slider-content .sub-sign {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #1e3d39;
     margin-bottom: 0;
 }
-/*signature part design end*/
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -90px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+/*testimunial part design end*/
+/*form part design start*/
+.form-area {
+    background: radial-gradient(#496978, #346879, #456878, #5d6977, #6e6a77);
+    padding: 125px 0;
+}
+.form-left {
+    background: linear-gradient(#50647d, #5d657e, #67647c);
+    padding: 65px 40px 110px 40px;
+}
+.form-left h2 {
+    color: #ffffff;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+}
+.form-group {
+    padding-bottom: 15px;
+}
+.form-group .custom-input {
+    background: transparent;
+    border-radius: 0;
+    color: #ffffff;
+}
+.form-group textarea {
+    background: transparent;
+    border-radius: 0;
+    color: #ffffff;
+}
+.form-group Input::placeholder {
+    color: #ffffff;
+}
+.form-group textarea::placeholder {
+    color: #ffffff;
+}
+.btn-design {
+    float: right;
+    background: #ff2b4a;
+    padding: 12px 45px;
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 0;
+    margin-top: 8px;
+}
+.btn-design:hover {
+    background: #ffffff;
+    color: #ff2b4a;
+    border: 1px solid #ff2b4a;
+}
+.address-part {
+    background: linear-gradient(#50647d, #5d657e, #67647c);
+    padding: 45px 30px 45px 30px;
+    margin-bottom: 30px;
+}
+.address-part h3 {
+    color: #ffffff;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+.address-part p {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.phone-part {
+    background: linear-gradient(#50647d, #5d657e, #67647c);
+    padding: 45px 30px 45px 30px;
+    margin-bottom: 30px;
+}
+.phone-part h3 {
+    color: #ffffff;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+.phone-part p {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+.web-part {
+    background: linear-gradient(#50647d, #5d657e, #67647c);
+    padding: 45px 30px 45px 30px;
+}
+.web-part h3 {
+    color: #ffffff;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+.web-part p {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+/*form part design end*/
+/*footer part design start*/
+.footer {
+    background: #222222;
+    padding: 60px 0;
+    color: #aaaaaa;
+}
+.footer-content ul li a i {
+    color: #aaaaaa;
+}
+.footer-content ul li a .twitter-icon {
+    color: #ff2b4a;
+}
+.footer-content p {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #787878;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+}
+/*footer part design end*/
 /* font-family: 'Raleway', sans-serif; */
 /* font-family: 'Roboto', sans-serif; */

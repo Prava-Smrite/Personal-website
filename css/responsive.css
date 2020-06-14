@@ -1,37 +1,45 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 480px) and (max-width: 575.98px) {
+
     /*header design start*/
     .header {
         height: 80vh;
         padding: 15px 0;
     }
+
     .header-text {
         padding: 90px;
         position: relative;
     }
+
     .header-text h1 {
         font-size: 41px;
         letter-spacing: 4px;
         padding: 12px 0;
     }
+
     .header-text h1 {
         font-size: 35px;
         letter-spacing: 2px;
         padding: 0px 0;
     }
+
     .header-text p {
         font-size: 12px;
     }
+
     .header-text::before {
         width: 54%;
         top: 34%;
         left: 23%;
     }
+
     .header-text::after {
         width: 54%;
         top: 50%;
         left: 23%;
     }
+
     /*header design end*/
     /*about design start*/
     .about-img {
@@ -40,215 +48,334 @@
         padding-top: 15px;
         margin-left: 20%;
     }
+
     .about-text {
         padding: 35px 0;
         text-align: center;
     }
+
     .about-text h5 {
         font-size: 15px;
     }
+
     .about-text .para1 {
         font-size: 15px;
         padding-right: 0%;
         padding: 20px 12px;
         line-height: 28px;
     }
+
     .about-text .para2 {
         font-size: 15px;
         padding-right: 0%;
         padding: 0 12px 20px 12px;
         line-height: 28px;
     }
+
     .btn-custom {
         padding: 10px 35px;
     }
+
     /*about design end*/
     /*working-process design start*/
     .working-process {
         padding: 35px 0;
     }
+
     .work-content h2 {
         padding-bottom: 0px;
         font-size: 30px;
     }
+
     .work-content h5 {
         padding-bottom: 30px;
         font-size: 14px;
     }
+
     .design {
         padding: 0 10% 30px 10%;
     }
+
     .development {
         padding: 0 10% 30px 10%;
     }
+
     .testing {
         padding: 0 10% 30px 10%
     }
+
     .launch {
         padding: 0 10% 0 10%
     }
+
     /*working-process design end*/
     /*education part design start*/
     .education {
         padding: 35px 0;
     }
+
     .left-detail {
         padding-bottom: 30px;
         text-align: center;
     }
+
     .right-detail {
         text-align: center;
     }
+
     /*education part design end*/
     /*portfolio part design start*/
     .portfolio {
         padding: 35px 0;
     }
+
     .sm-design {
         padding-bottom: 30px;
     }
+
     .portfolio-img {
         text-align: center;
     }
+
     .sm-sd-design {
         padding-top: 30px;
     }
+
     /*portfolio part design end*/
-    /*signature part design start*/
-    .signature {
+    /*testimunial part design start*/
+    .slider {
         padding: 35px 0;
     }
-    .signature .sig-para {
-        padding-right: 5%;
-        padding-bottom: 20px;
+
+    .slider-content {
+        padding-top: 20px;
+        text-align: center;
     }
-    /*signature part design end*/
+
+    .slider-content i {
+        padding-bottom: 25px;
+    }
+
+    .slider-content .sig-para {
+        padding-right: 0%;
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .slider-content img {
+        padding-bottom: 15px;
+    }
+
+    .slider-img {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .slider-img img {
+        width: 80%;
+    }
+
+    .carousel-indicators {
+        bottom: -48px;
+    }
+
+    /*testimunial part design end*/
+    /*footer part design start*/
+    .footer {
+        padding: 15px 0;
+    }
+
+    .footer-content ul {
+        margin-bottom: 0;
+    }
+
+    /*footer part design end*/
 }
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+
     /*header design start*/
     .header {
         height: 100vh;
     }
+
     .header-text {
         padding: 100px;
         position: relative;
     }
+
     .header-text h1 {
         font-size: 41px;
         letter-spacing: 4px;
         padding: 12px 0;
     }
+
     .header-text p {
         font-size: 15px;
     }
+
     .header-text::after {
         width: 59%;
         top: 52%;
         left: 20%;
     }
+
     .header-text::before {
         width: 59%;
         top: 32%;
         left: 20%;
     }
+
     /*header design end*/
     /*about design start*/
     .about-img {
         text-align: center;
     }
+
     .about-text {
         padding: 35px 0;
         text-align: center;
     }
+
     .about-text {
         padding: 35px 0;
         text-align: center;
     }
+
     .about-text .para1 {
         font-size: 15px;
         padding-right: 0%;
         padding: 20px 0;
         line-height: 28px;
     }
+
     .about-text .para2 {
         font-size: 15px;
         padding-right: 0%;
         padding: 20px 0;
         line-height: 28px;
     }
+
     .about-text .para2 {
         font-size: 15px;
         padding-right: 0%;
         padding: 0 0 20px 0;
         line-height: 28px;
     }
+
     /*about design end*/
     /*working-process design start*/
     .working-process {
         padding: 35px 0;
     }
+
     .work-content h2 {
         padding-bottom: 0px;
         font-size: 35px;
     }
+
     .work-content h5 {
         padding-bottom: 30px;
         font-size: 15px;
     }
+
     .design {
         padding-bottom: 30px;
     }
+
     .development {
         padding-bottom: 30px;
     }
+
     /*working-process design end*/
     /*education part design start*/
     .education {
         padding: 35px 0;
     }
+
     .left-detail {
         padding-bottom: 30px;
         text-align: center;
     }
+
     .right-detail {
         text-align: center;
     }
+
     /*education part design end*/
     /*portfolio part design start*/
     .portfolio {
         padding: 35px 0;
     }
+
     .sm-design {
         padding-bottom: 30px;
     }
+
     /*portfolio part design end*/
-    /*signature part design start*/
-    .signature {
+    /*testimunial part design start*/
+    .slider {
         padding: 35px 0;
     }
-    .signature .sig-para {
-        padding-right: 16%;
+
+    .slider-content {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .slider-content i {
         padding-bottom: 25px;
     }
-    .signature h5 {
-        font-size: 15px;
+
+    .slider-content .sig-para {
+        padding-right: 0%;
+        padding-bottom: 10px;
     }
-    .signature .sub-sign {
-        font-size: 12px;
+
+    .slider-content img {
+        padding-bottom: 15px;
     }
-    /*signature part design end*/
+
+    .slider-img {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .slider-img img {
+        width: 80%;
+    }
+
+    .carousel-indicators {
+        bottom: -48px;
+    }
+
+    /*testimunial part design end*/
+    /*footer part design start*/
+    .footer {
+        padding: 20px 0;
+    }
+
+    .footer-content ul {
+        margin-bottom: 0;
+    }
+
+    /*footer part design end*/
 }
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+
     /*header design start*/
     .header {
         height: 100vh;
     }
+
     .header-text {
         padding: 100px;
         position: relative;
     }
+
     .header-text::after {
         position: absolute;
         content: '';
@@ -258,6 +385,7 @@
         top: 53%;
         left: 16%;
     }
+
     .header-text::before {
         position: absolute;
         content: '';
@@ -267,23 +395,29 @@
         top: 28%;
         left: 16%;
     }
+
     .header-text h1 {
         padding: 0px 0;
     }
+
     .header-text h1 {
         font-size: 60px;
     }
+
     .header-text p {
         font-size: 23px;
     }
+
     /*header design end*/
     /*about design start*/
     .about-text {
         padding: 65px 0;
     }
+
     .about-text h5 {
         font-size: 15px;
     }
+
     .about-text .para1 {
         font-size: 14px;
         font-family: 'Roboto', sans-serif;
@@ -293,6 +427,7 @@
         line-height: 24px;
         padding-right: 9%;
     }
+
     .about-text .para2 {
         font-size: 14px;
         font-family: 'Roboto', sans-serif;
@@ -302,67 +437,121 @@
         padding-right: 4%;
         padding-bottom: 20px;
     }
+
     .about-img {
         width: 113%;
         padding-top: 60px;
     }
+
     /*about design end*/
     /*working-process design start*/
     .working-process {
         padding: 65px 0;
     }
+
     .design {
         padding-bottom: 30px;
     }
+
     .development {
         padding-bottom: 30px;
     }
+
     .work-content h2 {
         padding-bottom: 0px;
     }
+
     .work-content h5 {
         padding-bottom: 30px;
     }
+
     /*working-process design end*/
     /*education part design start*/
     .education {
         padding: 65px 0;
     }
+
     .left-detail {
         padding-bottom: 30px;
         text-align: center;
     }
+
     .right-detail {
         text-align: center;
     }
+
     /*education part design end*/
     /*portfolio part design start*/
     .portfolio {
         padding: 65px 0;
     }
+
     /*portfolio part design end*/
-    /*signature part design start*/
-    .signature {
+    /*testimunial part design start*/
+    .slider {
         padding: 65px 0;
     }
-    .signature .sig-para {
-        padding-right: 38%;
+
+    .slider-content {
+        padding-top: 0px;
     }
-    /*signature part design end*/
+
+    .slider-content i {
+        padding-bottom: 15px;
+        font-size: 40px;
+    }
+
+    .slider-content .sig-para {
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        padding-right: 16%;
+        padding-bottom: 15px;
+    }
+
+    .slider-content img {
+        padding-bottom: 15px;
+    }
+
+    .slider-img img {
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .carousel-indicators {
+        bottom: -60px;
+    }
+
+    /*testimunial part design end*/
+    /*footer part design start*/
+    .footer {
+        padding: 25px 0;
+    }
+
+    .footer-content ul {
+        margin-bottom: 0;
+    }
+
+    /*footer part design end*/
 }
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
     /*header design start*/
     .header {
         height: 100vh;
     }
+
     .header-text {
         padding: 60px;
         position: relative;
     }
+
     .header-text h1 {
         padding: 8px 0;
     }
+
     .header-text::after {
         position: absolute;
         content: '';
@@ -372,6 +561,7 @@
         top: 55%;
         left: 23%;
     }
+
     .header-text::before {
         position: absolute;
         content: '';
@@ -381,52 +571,87 @@
         top: 23%;
         left: 23%;
     }
+
     /*header design end*/
     /*about design start*/
     .about-text {
         padding: 65px 0;
     }
+
     .about-img {
         padding-top: 50px;
     }
+
     .about-text .para1 {
         font-size: 15px;
         padding: 30px 0;
         line-height: 30px;
         padding-right: 9%;
     }
+
     .about-text .para2 {
         font-size: 15px;
         padding-bottom: 30px;
         padding-right: 16%;
     }
+
     /*about design end*/
     /*working-process design start*/
     .working-process {
         padding: 65px 0;
     }
+
     .work-content h2 {
         padding-bottom: 10px;
     }
+
     /*working-process design end*/
     /*education part design start*/
     .education {
         padding: 65px 0;
     }
+
     /*education part design end*/
     /*portfolio part design start*/
     .portfolio {
         padding: 65px 0;
     }
+
     /*portfolio part design end*/
-    /*signature part design start*/
-    .signature {
+    /*testimunial part design start*/
+    .slider {
         padding: 65px 0;
     }
-    /*signature part design end*/
+
+    .slider-content {
+        padding-top: 45px;
+    }
+
+    .slider-content i {
+        padding-bottom: 20px;
+    }
+
+    .slider-content .sig-para {
+        padding-bottom: 10px;
+        padding-right: 5%;
+    }
+
+    .carousel-indicators {
+        bottom: -65px;
+    }
+
+    /*testimunial part design end*/
+    /*footer part design start*/
+    .footer {
+        padding: 25px 0;
+    }
+
+    /*footer part design end*/
 }
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
     /*header design start*/
     .header {
         background-image: url(../img/banner-bg.jpg);
@@ -436,6 +661,7 @@
         height: 100vh;
         padding: 40px 0;
     }
+
     /*header design end*/
     /*about design start*/
     /*about design end*/
@@ -443,6 +669,8 @@
     /*working-process design end*/
     /*education part design start*/
     /*education part design end*/
-    /*signature part design start*/
-    /*signature part design end*/
+    /*testimunial part design start*/
+    /*testimunial part design end*/
+    /*footer part design start*/
+    /*footer part design end*/
 }
