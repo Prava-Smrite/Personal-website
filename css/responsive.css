@@ -180,6 +180,18 @@
     }
 
     /*testimunial part design end*/
+    /*form part design start*/
+    .form-area{
+        padding: 35px;
+    }
+    .address-part{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .phone-part{
+        margin-bottom: 15px;
+    }
+    /*form part design end*/
     /*footer part design start*/
     .footer {
         padding: 15px 0;
@@ -351,6 +363,18 @@
     }
 
     /*testimunial part design end*/
+    /*form part design start*/
+    .form-area{
+        padding: 35px;
+    }
+    .address-part{
+        margin-bottom: 22px;
+        margin-top: 22px;
+    }
+    .phone-part{
+        margin-bottom: 22px;
+    }
+    /*form part design end*/
     /*footer part design start*/
     .footer {
         padding: 20px 0;
@@ -523,6 +547,21 @@
     }
 
     /*testimunial part design end*/
+    /*form part design start*/
+    .form-area{
+        padding: 65px;
+    }
+    .form-right{
+        text-align: center;
+    }
+    .address-part{
+        margin-bottom: 22px;
+        margin-top: 22px;
+    }
+    .phone-part{
+        margin-bottom: 22px;
+    }
+    /*form part design end*/
     /*footer part design start*/
     .footer {
         padding: 25px 0;
@@ -641,6 +680,15 @@
     }
 
     /*testimunial part design end*/
+    /*form part design start*/
+    /*form part design end*/
+    .address-part{
+        margin-bottom: 22px;
+    }
+    .phone-part{
+        margin-bottom: 22px;
+    }
+   
     /*footer part design start*/
     .footer {
         padding: 25px 0;
@@ -671,6 +719,10 @@
     /*education part design end*/
     /*testimunial part design start*/
     /*testimunial part design end*/
+    /*form part design start*/
+   
+    /*form part design end*/
+
     /*footer part design start*/
     /*footer part design end*/
 }
